@@ -7,17 +7,17 @@ path: "/cv"
 ###Work experience
 
 __CitNOW Video__ _11/2017 - Present_  
-Software Engineer iOS
+iOS Engineer
 
 At CitNOW I develop several [apps](https://itunes.apple.com/app/id1035880988) based on one Objective C codebase. I manage the CI/CD pipeline and am deputy team lead.
 
 __Lifelinked Limited__ _11/2016 - 11/2017_  
-Lead Software Engineer iOS
+iOS Engineer
 
 At Lifelinked I led the development of our two iOS Apps ([StoriiCare](https://itunes.apple.com/app/id1184972201) and [Storii](https://itunes.apple.com/app/id1200504071)) build in Swift. I managed the CI/CD pipeline, mentored one junior developer, interviewed candidates for mobile development roles and was involved in project and test management for the whole project.
 
 __Pulsion Technology Ltd.__ _02/2016 – 11/2016_  
-Software Engineer iOS
+iOS Engineer
 
 At Pulsion I led development of two iOS Apps using Objective C and Swift ([Pulsion Enterprise Mobility (PEM)](https://www.pulsionenterprisemobility.com) and [Quilder](https://itunes.apple.com/app/id876461811)). I was responsible for the CI/CD pipeline and mentored one junior developer.
 
