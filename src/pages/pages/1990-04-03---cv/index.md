@@ -7,7 +7,7 @@ path: "/cv"
 ###Work experience
 
 __CitNOW Video__ _11/2017 - Present_  
-iOS Engineer
+Senior iOS Engineer
 
 At CitNOW I develop several [apps](https://itunes.apple.com/app/id1035880988) based on one Objective C codebase. I manage the CI/CD pipeline and am deputy team lead.
 
