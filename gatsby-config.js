@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     url: 'http://chorgo.de',
     title: 'Jan Theile',
-    subtitle: 'I\'m an iOS Developer who dabbles in python backend dev from time to time',
+    subtitle: 'I\'m a Senior iOS Developer who dabbles in python backend dev from time to time',
     copyright: '© All rights reserved.',
     disqusShortname: '',
     menu: [
