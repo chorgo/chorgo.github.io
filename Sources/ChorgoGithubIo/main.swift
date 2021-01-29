@@ -14,9 +14,9 @@ struct ChorgoGithubIo: Website {
     }
 
     // Update these properties to configure your website:
-    var url = URL(string: "http://chorgo.de")!
+    var url = URL(string: "https://chorgo.de")!
     var name = "Jan Theile"
-    var description = "Test"
+    var description = "Senior iOS Developer"
     var language: Language { .english }
     var imagePath: Path? { nil }
 }

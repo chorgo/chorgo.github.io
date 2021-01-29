@@ -1,6 +1,6 @@
 //
 //  CV.swift
-//  
+//
 //
 //  Created by Jan Theile on 22.01.21.
 //
@@ -83,47 +83,6 @@ extension Node where Context == HTML.BodyContext {
                                 .text("others: C#, Ruby, Javascript, Java, DB management, C, C++, Perl, PHP, Fortran, Shell-Scripting")
                             ),
                             .br()
-                        )
-                    ),
-                    .div(
-                        .class("w3-container w3-card w3-white"),
-                        .h2(
-                            .class("w3-text-grey w3-padding-16"),
-                            .text("Education")
-                        ),
-                        .div(
-                            .class("w3-container"),
-                            .h5(
-                                .class("w3-opacity"),
-                                .b(
-                                    .text("Double-Bachelor Math/IT at University of Osnabrück")
-                                )
-                            ),
-                            .h6(
-                                .class("w3-text-indigo"),
-                                .i(
-                                    .class("fa fa-calendar fa-fw w3-margin-right")
-                                ),
-                                .text("11/2012 – 11/2013")
-                            ),
-                            .hr()
-                        ),
-                        .div(
-                            .class("w3-container"),
-                            .h5(
-                                .class("w3-opacity"),
-                                .b(
-                                    .text("Bachelor of Scientific Programming at FH Aachen")
-                                )
-                            ),
-                            .h6(
-                                .class("w3-text-indigo"),
-                                .i(
-                                    .class("fa fa-calendar fa-fw w3-margin-right")
-                                ),
-                                .text("09/2009 – 11/2012")
-                            ),
-                            .hr()
                         )
                     )
                 ),
@@ -301,6 +260,47 @@ extension Node where Context == HTML.BodyContext {
                             ),
                             .p(
                                 .text("At Jülich I worked 3 days per week and was part of a team that studied models and built simulations of complex systems with applications in civil security and traffic planning.")
+                            ),
+                            .hr()
+                        )
+                    ),
+                    .div(
+                        .class("w3-container w3-card w3-white  w3-margin-bottom"),
+                        .h2(
+                            .class("w3-text-grey w3-padding-16"),
+                            .text("Education")
+                        ),
+                        .div(
+                            .class("w3-container"),
+                            .h5(
+                                .class("w3-opacity"),
+                                .b(
+                                    .text("Double-Bachelor Math/IT at University of Osnabrück")
+                                )
+                            ),
+                            .h6(
+                                .class("w3-text-indigo"),
+                                .i(
+                                    .class("fa fa-calendar fa-fw w3-margin-right")
+                                ),
+                                .text("11/2012 – 11/2013")
+                            ),
+                            .hr()
+                        ),
+                        .div(
+                            .class("w3-container"),
+                            .h5(
+                                .class("w3-opacity"),
+                                .b(
+                                    .text("Bachelor of Scientific Programming at FH Aachen")
+                                )
+                            ),
+                            .h6(
+                                .class("w3-text-indigo"),
+                                .i(
+                                    .class("fa fa-calendar fa-fw w3-margin-right")
+                                ),
+                                .text("09/2009 – 11/2012")
                             ),
                             .hr()
                         )
