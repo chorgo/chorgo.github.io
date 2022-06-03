@@ -4,6 +4,9 @@ import PackageDescription
 
 let package = Package(
     name: "ChorgoGithubIo",
+    platforms: [
+        .macOS("12")
+    ],
     products: [
         .executable(
             name: "ChorgoGithubIo",
@@ -11,7 +14,7 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(name: "Publish", url: "https://github.com/johnsundell/publish.git", from: "0.6.0")
+        .package(name: "Publish", url: "https://github.com/johnsundell/publish.git", from: "0.9.0")
     ],
     targets: [
         .target(

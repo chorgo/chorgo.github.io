@@ -38,14 +38,9 @@ extension Page {
 
 }
 
-// This will generate your website using the built-in Foundation theme:
-//try ChorgoGithubIo().publish(withTheme: .chorgo,
-//                             additionalSteps: [
-//                                .addPage(Page.cv)
-//                             ])
 try ChorgoGithubIo().publish(using: [
     .copyResources(),
     .addPage(Page.cv),
     .generateHTML(withTheme: .chorgo),
-    .deploy(using: .gitHub("chorgo/chorgo.github.io", useSSH: false))
+    .deploy(using: .gitHub("chorgo/chorgo.github.io"))
 ])

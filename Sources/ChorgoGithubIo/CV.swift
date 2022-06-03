@@ -103,6 +103,36 @@ extension Node where Context == HTML.BodyContext {
                                     .a(
                                         .target(.blank),
                                         .attribute(named: "rel", value: "noopener noreferrer"),
+                                        .href("https://deepl.com"),
+                                        .text("DeepL")
+                                    )
+                                )
+                            ),
+                            .h6(
+                                .class("w3-text-indigo"),
+                                .i(
+                                    .class("fa fa-calendar fa-fw w3-margin-right")
+                                ),
+                                .text("04/2022 - "),
+                                .span(
+                                    .class("w3-tag w3-indigo w3-round"),
+                                    .text("Present")
+                                )
+                            ),
+                            .p(
+                                .text("At DeepL I develop our native iOS and macOS apps.")
+                            ),
+                            .hr()
+                        ),
+                        .div(
+                            .class("w3-container"),
+                            .h5(
+                                .class("w3-opacity"),
+                                .b(
+                                    .text("Senior iOS Developer at "),
+                                    .a(
+                                        .target(.blank),
+                                        .attribute(named: "rel", value: "noopener noreferrer"),
                                         .href("https://citnow.com"),
                                         .text("CitNOW")
                                     )
@@ -113,11 +143,7 @@ extension Node where Context == HTML.BodyContext {
                                 .i(
                                     .class("fa fa-calendar fa-fw w3-margin-right")
                                 ),
-                                .text("11/2017 - "),
-                                .span(
-                                    .class("w3-tag w3-indigo w3-round"),
-                                    .text("Present")
-                                )
+                                .text("11/2017 - 03/2022")
                             ),
                             .p(
                                 .text("At CitNOW I develop several "),
